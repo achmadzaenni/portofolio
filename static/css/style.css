@@ -230,14 +230,72 @@
 .skill-icons i:hover,
 .tool-icons i:hover {
   transform: translateY(-6px);
-  color: #ffc107;
+}
+i {
+    font-size: 40px;
+    margin: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.icon-html:hover {
+    color: #E34F26;
+}
+.icon-css:hover {
+    color: #1572B6;
+}
+.icon-js:hover {
+    color: #F7DF1E;
+}
+.icon-php:hover {
+    color: #777BB4;
+}
+.icon-laravel:hover {
+    color: #FF2D20;
+}
+.icon-android:hover {
+    color: #3DDC84;
+}
+.icon-python:hover {
+    color: #3776AB;
+}
+.icon-react:hover {
+    color: #61DAFB;
+}
+.icon-db:hover {
+    color: #00618A;
 }
 .social-icons i {
   font-size: 35px;
 }
 .social-icons i:hover {
   transform: scale(1.15);
-  color: #0d6efd;
+}
+.icon-github:hover {
+  color: #181717;
+}
+.icon-git:hover {
+  color: #F05032;
+}
+.icon-terminal:hover {
+  color: #00ADB5;
+}
+.icon-vscode:hover {
+  color: #007ACC;
+}
+.icon-postman:hover {
+  color: #FF6C37;
+}
+.icon-node:hover {
+  color: #68A063;
+}
+.icon-instagram:hover {
+  color: #E1306C;
+}
+.icon-github:hover {
+  color: #181717;
+}
+.icon-linkedin:hover {
+  color: #0A66C2;
 }
 #datadiri .shadow-sm, 
 #kontak .shadow-sm {

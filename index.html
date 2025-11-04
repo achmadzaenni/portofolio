@@ -68,12 +68,15 @@
             <div class="p-4 shadow-sm rounded-4 bg-white">
               <h4 class="text-center mb-3">Skill Utama</h4>
               <div class="skill-icons justify-content-center">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt" title="CSS"></i>
-                <i class="fa-brands fa-square-js"></i>
-                <i class="fa-brands fa-php"></i>
-                <i class="fa-brands fa-laravel"></i>
-                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-html5 icon-html"></i>
+                <i class="fa-brands fa-css3-alt icon-css"></i>
+                <i class="fa-brands fa-square-js icon-js"></i>
+                <i class="fa-brands fa-php icon-php"></i>
+                <i class="fa-brands fa-laravel icon-laravel"></i>
+                <i class="fa-brands fa-android icon-android"></i>
+                <i class="fa-brands fa-python icon-python"></i>
+                <i class="fa-brands fa-react icon-react"></i>
+                <i class="fa-solid fa-database icon-db"></i>
               </div>
             </div>
           </div>
@@ -81,12 +84,18 @@
             <div class="p-4 shadow-sm rounded-4 bg-white">
               <h4 class="text-center mb-3">Tools yang Dikuasai</h4>
               <div class="tool-icons justify-content-center">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-git-alt"></i>
-                <i class="fa-solid fa-terminal"></i>
-                <i class="bi bi-code-square" title="VS Code"></i>
-                <i class="bi bi-gear-wide-connected" title="Postman API"></i>
-                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-github icon-github" title="GitHub"></i>
+                <i class="fa-brands fa-git-alt icon-git" title="Git"></i>
+                <i
+                  class="fa-solid fa-terminal icon-terminal"
+                  title="Terminal"
+                ></i>
+                <i class="bi bi-code-square icon-vscode" title="VS Code"></i>
+                <i
+                  class="bi bi-gear-wide-connected icon-postman"
+                  title="Postman"
+                ></i>
+                <i class="fa-brands fa-node icon-node" title="Node.js"></i>
               </div>
             </div>
           </div>
@@ -104,15 +113,15 @@
             Silakan hubungi saya melalui platform berikut:
           </p>
           <div class="social-icons mt-3 justify-content-center">
-            <a href="https://instagram.com/adrian_adri4" target="_blank"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="https://github.com/achmadzaenni" target="_blank"
-              ><i class="bi bi-github"></i
-            ></a>
-            <a href="https://linkedin.com/achmadzaenni" target="_blank"
-              ><i class="bi bi-linkedin"></i
-            ></a>
+            <a href="https://instagram.com/adrian_adri4" target="_blank">
+              <i class="bi bi-instagram icon-instagram"></i>
+            </a>
+            <a href="https://github.com/achmadzaenni" target="_blank">
+              <i class="bi bi-github icon-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/achmadzaenni" target="_blank">
+              <i class="bi bi-linkedin icon-linkedin"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -170,20 +179,6 @@
       <p>&copy; 2025 - Semua Hak Cipta Dilindungi</p>
     </footer>
     <script src="static/js/bootstrap.bundle.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const images = document.querySelectorAll(".clickable-image");
-        const modal = new bootstrap.Modal(
-          document.getElementById("imageModal")
-        );
-        const modalImage = document.getElementById("modalImage");
-        images.forEach((image) => {
-          image.addEventListener("click", function () {
-            modalImage.src = this.src;
-            modal.show();
-          });
-        });
-      });
-    </script>
+    <script src="static/js/script.js"></script>
   </body>
 </html>
